@@ -18,11 +18,11 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
     ya da
     SQL sekmesinden sql scriptlerini çalıştırarak gerekli tabloları ve örnek verileri yükleyin.
    
-4. api/Database.php dosyasındaki veritabanı bağlantı bilgilerini güncelleyin:
-  $host = 'localhost';
-  $dbName = 'library_db';
-  $username = 'root';
-  $password = '';
+4. api/Database.php dosyasındaki veritabanı bağlantı bilgilerini güncelleyin: <br>
+  $host = 'localhost'; <br>
+  $dbName = 'library_db'; <br>
+  $username = 'root'; <br>
+  $password = ''; <br>
 
 5. Apache sunucusunu başlatın ve http://localhost/projects/library/api yolunu takip edin.
 
