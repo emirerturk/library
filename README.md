@@ -44,4 +44,5 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
   - GET /api/categories - Tüm kategorileri listele <br>
   - POST /api/categories - Yeni kategori ekle <br>
 
+### Test için kullanım
  - Dilerseniz test için oluşturmuş olduğum postman collection üzerinden ilerleme sağlayabilirsiniz : https://.postman.co/workspace/My-Workspace~99ed3375-a927-4fcd-8358-0e9088c2e575/collection/38817488-a4b2f7e5-6974-48d5-a2fc-0598ee25e02d?action=share&creator=38817488 <br>
