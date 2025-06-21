@@ -19,14 +19,14 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
     SQL sekmesinden sql scriptlerini çalıştırarak gerekli tabloları ve örnek verileri yükleyin.
    
 4. api/Database.php dosyasındaki veritabanı bağlantı bilgilerini güncelleyin: <br>
-  $host = 'localhost'; <br>
-  $dbName = 'library_db'; <br>
-  $username = 'root'; <br>
-  $password = ''; <br>
+ - $host = 'localhost'; <br>
+ - $dbName = 'library_db'; <br>
+ - $username = 'root'; <br>
+ - $password = ''; <br>
 
 5. Apache sunucusunu başlatın ve http://localhost/projects/library/api yolunu takip edin.
 
-API Endpoint Listesi
+## API Endpoint Listesi
 
 Books <br>
   GET /api/books - Tüm kitapları listele (pagination destekli) <br>
