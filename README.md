@@ -28,20 +28,20 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
 
 API Endpoint Listesi
 
-Books
-  GET /api/books - Tüm kitapları listele (pagination destekli)
-  GET /api/books/search?q=keyword - Başlık veya ISBN'e göre kitap ara
-  GET /api/books/{id} - ID'ye göre kitap getir
-  POST /api/books/{id} - Kitap Güncelle
-  DELETE /api/books/{id} - Kitap sil
+Books <br>
+  GET /api/books - Tüm kitapları listele (pagination destekli) <br>
+  GET /api/books/search?q=keyword - Başlık veya ISBN'e göre kitap ara <br>
+  GET /api/books/{id} - ID'ye göre kitap getir <br>
+  POST /api/books/{id} - Kitap Güncelle <br>
+  DELETE /api/books/{id} - Kitap sil <br>
 
-Authors
-  GET /api/authors - Tüm yazarları listele
-  POST /api/authors - Yeni yazar ekle
-  GET /api/authors/{id}/books - Belirli yazarın kitaplarını getir
+Authors <br>
+  GET /api/authors - Tüm yazarları listele <br>
+  POST /api/authors - Yeni yazar ekle <br>
+  GET /api/authors/{id}/books - Belirli yazarın kitaplarını getir <br>
 
-Categories
-  GET /api/categories - Tüm kategorileri listele
-  POST /api/categories - Yeni kategori ekle
+Categories <br>
+  GET /api/categories - Tüm kategorileri listele <br>
+  POST /api/categories - Yeni kategori ekle <br>
 
-  Dilerseniz test için oluşturmuş olduğum postman collection üzerinden ilerleme sağlayabilirsiniz : https://.postman.co/workspace/My-Workspace~99ed3375-a927-4fcd-8358-0e9088c2e575/collection/38817488-a4b2f7e5-6974-48d5-a2fc-0598ee25e02d?action=share&creator=38817488
+  Dilerseniz test için oluşturmuş olduğum postman collection üzerinden ilerleme sağlayabilirsiniz : https://.postman.co/workspace/My-Workspace~99ed3375-a927-4fcd-8358-0e9088c2e575/collection/38817488-a4b2f7e5-6974-48d5-a2fc-0598ee25e02d?action=share&creator=38817488 <br>
