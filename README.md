@@ -13,7 +13,7 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
 1. Projeyi klonlayin veya indirin: git clone https://github.com/emirerturk/library.git
 
 2. library_db isminde bir veritabani oluşturun
- <img width="719" alt="image" src="https://github.com/user-attachments/assets/46be9c5e-5c00-4294-ab73-40b601ab0444" />
+ <img width="719" alt="image" src="https://github.com/user-attachments/assets/46be9c5e-5c00-4294-ab73-40b601ab0444" /> <br>
 3. Dilerseniz proje dosyaları içerisinde bulunan .sql uzantili schema ve sample_data dosyalarını sırasıyla içe aktar yoluyla ekleyin
     ya da
     SQL sekmesinden sql scriptlerini çalıştırarak gerekli tabloları ve örnek verileri yükleyin.
