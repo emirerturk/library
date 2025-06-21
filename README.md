@@ -5,7 +5,7 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
 
 ## Kurulum Talimatları
 - PHP 8.0 veya üzeri
-- MySQL veya PostreSQL
+- MySQL
 - XAMPP
 - Postman veya benzeri bir API test aracı
 
