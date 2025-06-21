@@ -26,6 +26,11 @@ Basit bir RESTful API projesidir. Bu sistemde kitap, yazar ve kategori işlemler
 
 5. Apache sunucusunu başlatın ve http://localhost/projects/library/api yolunu takip edin.
 
+6. Unit testlerin ve loglama işlemlerinin çalışabilmesi için projeyi klonladıktan sonra composer install komutu çalıştırılmalıdır.
+   -./vendor/bin/phpunit;    komutu ile unit testleri çalıştırabilirsiniz.
+
+
+
 ## API Endpoint Listesi
 
 ### Books <br>
