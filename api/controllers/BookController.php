@@ -9,6 +9,10 @@ class BookController{
         $this->pdo = (new Database())->getConnection();
     }
 
+    public function getPdo() {
+        return $this->pdo;
+    }
+
     public function getAllBooks() {
         $stmt = $this->pdo->query("SELECT * FROM books");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);

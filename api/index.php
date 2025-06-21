@@ -11,6 +11,7 @@ require_once 'helper/Validation.php';
 require_once 'core/Database.php';
 require_once 'core/Request.php';
 require_once 'core/Logger.php';
+
 Logger::getLogger()->info('API is starting...');
 
 $request = new Request($_SERVER);
@@ -22,6 +23,10 @@ $categoryController = new CategoryController();
 function route($method, $uriPattern, $callback) {
     global $request;
     $methodMatch = $request->isMethod($method);
+    if(!$methodMatch) {
+        return false;
+    }
+
     $uriMatch = false;
 
     if (str_contains($uriPattern, ':id')) {
