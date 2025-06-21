@@ -8,7 +8,9 @@ class AuthorController{
     public function __construct() {
         $this->pdo = (new Database())->getConnection();
     }
-
+    public function getPdo() {
+        return $this->pdo;
+    }
     public function getAllAuthors() {
         $stmt = $this->pdo->query("SELECT * FROM authors");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);

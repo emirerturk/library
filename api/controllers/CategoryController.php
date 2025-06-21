@@ -8,7 +8,9 @@ class CategoryController{
     public function __construct() {
         $this->pdo = (new Database())->getConnection();
     }
-
+    public function getPdo() {
+        return $this->pdo;
+    }
     public function getAllCategories() {
         $stmt = $this->pdo->query("SELECT * FROM categories");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
